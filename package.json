@@ -4,13 +4,15 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^14.3.3"
+    "cypress": "^12.0.0",
+    "cypress-plugin-api": "^2.11.2"
   },
   "dependencies": {
     "aggregate-error": "^3.1.0",
